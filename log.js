@@ -77,4 +77,12 @@ $(function () {
 
 
     }
+
+    function startPageLoading() {
+        $("#divLoading").show();
+    }
+    
+    function stopPageLoading() {
+        $("#divLoading").hide();
+    }
 });
