@@ -174,5 +174,14 @@ String.prototype.reversed = function() {
 // desrever eb won nac sihT
 
 
+//*********************************** */
+
+$(function() {
+
+    $('#ddlTurmaCursoModulo').select2({
+        placeholder: "Módulos"
+    });
+});
+
 
 
