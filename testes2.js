@@ -184,4 +184,38 @@ $(function() {
 });
 
 
+//************************************* 
+
+var car = {type:"Fiat", model:"500", color:"white"};
+var dados = {nome: "sdasd", idade:12, telefone: 1122223232} ;
+
+// duas formas de expressar os dados
+dados.nome;
+dados["nome"];
+
+
+var person = {
+    firstName: "John",
+    lastName : "Doe",
+    id       : 5566,
+    fullName : function() {
+      return this.firstName + " " + this.lastName;
+    }
+  };
+
+  var cara = objeto.fullName();
+  var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift(); // remove primeiro
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var x = fruits.push("Kiwi");   //  the value of x is 5
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var x = fruits.pop();      // the value of x is "Mango"
+
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon"); // insere no local 1 o novo elemento...
+
+//******************************************** */
 

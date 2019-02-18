@@ -1,6 +1,7 @@
 $(function () {
     // botao salvar na tela de edicao de turma
     $('#btnSalvarPresenca').on("click", salvarPresenca);
+    
     function salvarPresenca() {       
 
         var vTurma = $("#IdTurma").val();

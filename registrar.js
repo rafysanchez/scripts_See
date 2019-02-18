@@ -1,6 +1,8 @@
 $(function () {
     // botao salvar na tela de edicao de turma
     $('#btnSalvarNota').on("click", salvarNota);
+    
+    
     function salvarNota() {
         var vTurma = $("#IdTurma").val();
         var tamTabela = $("#tb_NotasParticipantes tbody tr").length;
